@@ -4,11 +4,12 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Castel by castel</title>
+    <title>Castel Programing Language</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/jquery-1.7.2.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!--[if lt IE 9]>
@@ -20,11 +21,14 @@
     <div class="wrapper">
 
       <header>
+
         <h1 class="header">Castel</h1>
+
         <p class="header">The mighty programming language over the hill - since 2012</p>
 
         <ul>
           <li><a class="buttons github" href="https://github.com/castel">GitHub Profile</a></li>
+          <li><a class="buttons repository" href="https://github.com/castel/castel">Interpreter</a></li>
         </ul>
 
       </header>
@@ -34,15 +38,19 @@
 
         <p>Castel is a new programming language. It aims web developers, and try to address design flaws that we could find in Javascript or PHP. Its goal is to provide a robust environment which could be used as a client script engine, or as a server page generator.</p>
 
-        <p>Castel's compiler is build using some C++11 features and the <a href="http://llvm.org/">LLVM</a> library. Please note that the project is currently <strong>very unstable</strong>, and that it should definitely not be used in a production environment.</p>
+        <p>Castel's compiler is built using some C++11 features and the <a href="http://llvm.org/">LLVM</a> library. Please note that the project is currently <strong>very unstable</strong>, and that it should definitely not be used in a production environment.</p>
 
         <h3>Why another programming language ?</h3>
 
-        <p>Even if <a href="http://xkcd.com/927/">XKCD</a> warns us against competing standards, sometimes it can be a good idea to look around, see the conception issues in current programming language, and try to address them. However, these language are often 'ready to prod', which means that there is very little chance that these design flaws will ever be fixed (every little design change would break backward compatibility for many users).</p>
+        <p>Even if <a href="http://xkcd.com/927/">XKCD</a> warns us against competing standards, sometimes it can be a good idea to look around, see the conception issues in current programming languages, and try to address them. However, these languages are often 'ready to prod', which means that there is very little chance that these design flaws will ever be fixed (every little design change would break backward compatibility for many users).</p>
+
+        <p>And here we are.</p>
 
         <h3>This Castel does look like Python/Javascript/Java/<a href="http://www.gotopp.org/index.html.en">GOTO++</a></h3>
 
-        <p>Yes it does ! Actually, some of its syntaxes has been inspired by these languages. Why not ? It's not like it was a random patchwork of syntaxes : every single syntax has been carefully designed, and is the product of an intensive reflexion : "Does it make sense to include this feature ?".</p>
+        <p>Yes it does ! Actually, some features have been inspired by these languages. These languages are production-ready, and had got many feedbacks over the time. It makes sense to see what developers love and what are their needs before starting building a new language.</p>
+
+        <p>However, these features have been carefully designed, we didn't just put them here following a random pattern. Castel's foundations are made of pure steel.</p>
 
         <h3>Who are the authors ? Can I join ?</h3>
 
